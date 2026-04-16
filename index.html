@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Bar Emilia. Pyszne domowe obiady, tradycyjne śniadania, zupy i dania na zamówienie z dowozem. Odwiedź nas na ul. Białostockiej 16 w Koszarówce!">
+  <title>Bar Emilia | Domowe obiady i klasyczne smaki w Koszarówce</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- Header & Nav -->
+  <header class="header">
+    <div class="container nav">
+      <div class="logo">
+        <a href="index.html">
+          <img src="assets/logo.jpg" alt="Bar Emilia Logo" style="height: 56px; width: 56px; object-fit: cover; object-position: center; border-radius: 50%; display: block; box-shadow: 0 2px 4px rgba(44,38,33,0.1); border: 2px solid #FDFaf6; background-color: #fff;">
+        </a>
+      </div>
+      <nav class="nav-links">
+        <a href="#start">Start</a>
+        <a href="menu.html">Menu</a>
+        <a href="#catering">Catering</a>
+        <a href="#about">O nas</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      <div class="nav-cta">
+        <a href="tel:+48735596477" class="btn btn-primary">Zadzwoń</a>
+      </div>
+      <div class="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="start" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-info">
+            <span id="open-status" class="status-badge">Sprawdzanie...</span>
+          </div>
+          <h1 class="hero-title">Prawdziwe domowe obiady w Koszarówce</h1>
+          <p class="hero-subtitle">Bar Emilia to mały, lokalny bar z tradycyjną polską kuchnią. Wpadnij na pożywne
+            śniadanie, świetną zupę lub klasyczny obiad – na miejscu, na wynos i z dowozem!</p>
+
+          <div class="hero-buttons">
+            <a href="menu.html" class="btn btn-primary">Zobacz menu</a>
+            <a href="#kontakt" class="btn btn-outline">Jak dojechać</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Info Cards -->
+    <section class="features">
+      <div class="container features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🍲</div>
+          <h3 class="feature-title">Domowe obiady</h3>
+          <p class="feature-desc">Klasyczne i świeże smaki, jak u mamy.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🍳</div>
+          <h3 class="feature-title">Śniadania</h3>
+          <p class="feature-desc">Solidny posiłek na początek dnia.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">🛵</div>
+          <h3 class="feature-title">Dowóz i wynos</h3>
+          <p class="feature-desc">Chcesz zjeść w domu? Dowieziemy w Grajewie!</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon">💰</div>
+          <h3 class="feature-title">Przystępne ceny</h3>
+          <p class="feature-desc">Syte dnie w kwocie od 20 do 40 zł.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Menu Highlights -->
+    <section class="section menu-highlights">
+      <div class="container">
+        <h2 class="section-title">Menu w skrócie</h2>
+
+        <div class="menu-previews" id="menu-preview-container">
+          <!-- Dynamic JSON data will be injected here via main.js -->
+        </div>
+
+        <div class="see-more-menu">
+          <a href="menu.html" class="btn btn-primary">Zobacz pełne menu i wszystkie kategorie</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommended -->
+    <section class="section recommended">
+      <div class="container">
+        <h2 class="section-title">Nasi klienci polecają</h2>
+        <div class="recommended-grid">
+          <div class="recommended-card">
+            <h3 class="recommended-name">Schab panierowany z dodatkami</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 5px;">Klasyka gatunku. Solidna porcja i
+              chrupiąca panierka.</p>
+          </div>
+          <div class="recommended-card">
+            <h3 class="recommended-name">Tradycyjny Żurek</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 5px;">Nasza specjalność na prawdziwym
+              zakwasie, sycący i rozgrzewający.</p>
+          </div>
+          <div class="recommended-card">
+            <h3 class="recommended-name">Pierogi z mięsem</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 5px;">Ręcznie lepione na miejscu z dużą
+              ilością farszu.</p>
+          </div>
+          <div class="recommended-card">
+            <h3 class="recommended-name">Zapiekanka klasyczna</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 5px;">Szybka, ciepła przekąska prosto z
+              pieca na mniejszy głód.</p>
+          </div>
+          <div class="recommended-card">
+            <h3 class="recommended-name">Placek po węgiersku</h3>
+            <p style="color: var(--text-muted); font-size: 0.9rem; margin-top: 5px;">Pyszny, aromatyczny i niesamowicie
+              pożywny wybór.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title">O Barze Emilia</h2>
+        <p>Jesteśmy niewielkim, lokalnym barem stworzonym z pasji do domowej polskiej kuchni. Gotujemy klasycznie,
+          uczciwie, ze świeżych składników i z myślą o osobach, które szukają smaków prosto z domowego stołu.</p>
+        <p>Znajdziesz nas niedaleko Grajewa - wpadnij do nas na spokojny obiad z rodziną w trakcie podróży lub odbierz
+          ciepłe jedzenie w drodze z pracy. Jesteśmy tu dla Ciebie, by zadowolić Twój codzienny głód!</p>
+      </div>
+    </section>
+    <!-- Catering Section -->
+    <section id="catering" class="section recommended" style="background-color: var(--white); border-top: 1px dashed var(--border-color);">
+      <div class="container">
+        <h2 class="section-title">Imprezy i Catering</h2>
+        <div style="max-width: 800px; margin: 0 auto; text-align: center; color: var(--text-dark);">
+          <p style="font-size: 1.1rem; margin-bottom: 2rem;">Organizujemy wszelkiego rodzaju cateringi oraz przygotowujemy wypieki i dania na zamówienie (pierogi, ciasta).</p>
+          <div class="features-grid" style="grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); text-align: left; gap: 2rem !important; align-items: stretch;">
+            <div class="feature-card" style="background-color: var(--bg-color); border: 1px solid var(--border-color); border-radius: var(--border-radius); box-shadow: var(--shadow-sm); flex: 1;">
+              <div class="feature-icon" style="font-size: 2.5rem; text-align: center;">🎉</div>
+              <h3 class="feature-title" style="text-align: center;">Przyjęcia okolicznościowe</h3>
+              <p class="feature-desc" style="text-align: center;">Urodziny, imieniny, chrzciny, komunie i inne uroczystości.</p>
+            </div>
+            <div class="feature-card" style="background-color: var(--bg-color); border: 1px solid var(--border-color); border-radius: var(--border-radius); box-shadow: var(--shadow-sm); flex: 1;">
+              <div class="feature-icon" style="font-size: 2.5rem; text-align: center;">🥟</div>
+              <h3 class="feature-title" style="text-align: center;">Wyroby domowe na wagę</h3>
+              <p class="feature-desc" style="text-align: center;">Catering domowy, znakomite lepione na miejscu pierogi i pyszne domowe ciasta od gospodyń.</p>
+            </div>
+          </div>
+          <div style="margin-top: 2.5rem;">
+            <p style="font-weight: 500; color: var(--text-muted); font-size: 1.1rem; margin-bottom: 1rem;">Zapraszamy do zapoznania się z ofertą cateringu! Zadzwoń lub zapytaj w lokalu.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact and Map Section -->
+    <section id="kontakt" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Kontakt i Dojazd</h2>
+        <div class="contact-wrapper">
+          <div class="contact-info">
+            <h3 style="font-size: 1.8rem; margin-bottom: 1.5rem;">Czekamy na Ciebie!</h3>
+            <p>Możesz zamówić jedzenie z pewnym dowozem na terenie Grajewa (8 zł) lub z opcją obioru osobistego na wynos
+              (opakowanie 1 zł). Zadzwoń do nas, chętnie przygotujemy dla Ciebie coś pysznego.</p>
+
+            <div class="contact-info-list">
+              <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div class="contact-text">
+                  <strong>Adres lokalu</strong>
+                  Koszarówka ul. Białostocka 16<br>19-200 Grajewo
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">📞</div>
+                <div class="contact-text">
+                  <strong>Zadzwoń do nas</strong>
+                  <a href="tel:+48735596477" style="font-size: 1.3rem; font-weight: 500; color: var(--accent-gold);">735
+                    596 477</a>
+                </div>
+              </div>
+              <div class="contact-item">
+                <div class="contact-icon">🕒</div>
+                <div class="contact-text">
+                  <strong>Godziny otwarcia</strong>
+                  Poniedziałek - Piątek: 09:00 - 18:00<br>
+                  Sobota: Zamknięte | Niedziela: 12:00 - 17:00
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top: 2rem;">
+              <a href="https://maps.app.goo.gl/FL6wXT4h49SJxNis7" target="_blank"
+                rel="noopener noreferrer" class="btn btn-outline" style="margin-right: 1rem;">Wyznacz trasę</a>
+            </div>
+          </div>
+
+          <div class="map-container">
+            <!-- Embedding Google Maps using an iframe with precise coordinates -->
+            <iframe
+              src="https://maps.google.com/maps?q=53.625917,22.484787&t=&z=11&ie=UTF8&iwloc=&output=embed"
+              allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <h3>Bar Emilia</h3>
+          <p>Domowa kuchnia niedaleko Grajewa. Gotujemy z myślą o Tobie – klasycznie, naturalnie i do syta.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Szybkie Linki</h4>
+          <ul>
+            <li><a href="#start">Strona główna</a></li>
+            <li><a href="menu.html">Nasze menu</a></li>
+            <li><a href="#catering">Imprezy i Catering</a></li>
+            <li><a href="#about">O nas</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Kontakt</h4>
+          <p>Koszarówka ul. Białostocka 16, 19-200 Grajewo</p>
+          <p>Tel: 735 596 477</p>
+          <p>Pn-Pt: 09:00 - 18:00<br>Nd: 12:00 - 17:00</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Bar Emilia. Wszystkie prawa zastrzeżone.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/menu-data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
