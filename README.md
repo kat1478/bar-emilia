@@ -41,7 +41,7 @@ From a portfolio perspective, this project demonstrates:
 - **Maintainable Architecture**: Structuring data and markup logically to reduce friction for future maintenance by non-technical owners.
 
 ## Demo
-- **Live Demo**: [https://kat1478.github.io/bar-emilia/](https://kat1478.github.io/bar-emilia/)
+- **Live Demo**: [https://bar-emilia.netlify.app](https://bar-emilia.netlify.app)
 - **Screenshots**:
   - *[Placeholder: Mobile Viewports]* 
   - *[Placeholder: Desktop Homepage]*
