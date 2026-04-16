@@ -26,7 +26,7 @@ const menuData = [
       { name: "Schab panierowany z pieczarkami i serem + dodatki", price: 40 },
       { name: "Filet drobiowy w płatkach kukurydzianych + dodatki", price: 38 },
       { name: "Świeżynka", price: 22 },
-      { name: "Kartacze (2 szt.)", desc: "czwartek, niedziela", price: 26 },
+      { name: "Kartacze (2 szt.)", desc: "wtorek, czwartek", price: 26 },
       { name: "Placek po węgiersku", price: 36 },
       { name: "Placek po węgiersku z serem żółtym", price: 38 },
       { name: "Nuggetsy + frytki", price: 32 },
